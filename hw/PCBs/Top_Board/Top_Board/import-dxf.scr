@@ -1,0 +1,26 @@
+# X[-14500.0000, 14500.0000]
+# Y[-7000.0000, 7000.0000]
+# size[14000.0000, 29000.0000]
+# lines=2, arcs=2, circles=0, polylines=0
+
+# import-dxf generated script file.
+Grid mic 1 off;
+Set Wire_Bend 2;
+Change Font Vector;
+Change Width 0.00;
+Layer  39;
+
+# arc 0
+Arc CCW (14500.00 -7000.00) (14500.00 7000.00) (14500.00 7000.00);
+
+# line 0
+Wire (14500.00 7000.00) (-14500.00 7000.00);
+
+# arc 1
+Arc CCW (-14500.00 7000.00) (-14500.00 -7000.00) (-14500.00 -7000.00);
+
+# line 1
+Wire (-14500.00 -7000.00) (14500.00 -7000.00);
+
+Window Fit;
+Grid last;
